@@ -44,10 +44,17 @@
             name: 'namecoin',
             symbol: 'nmc',
             addressTypes: {prod: ['34'], testnet: []}
+        },{
+            name: 'dash',
+            symbol: 'dash',
+            addressTypes: {prod: ['4c', '10'], testnet: ['8c', '13']}
         }];
 
 
     var currencies = {
+
+    	CURRENCIES:CURRENCIES,
+
         getByNameOrSymbol: function (currencyNameOrSymbol) {
             var nameOrSymbol = currencyNameOrSymbol.toLowerCase();
             for (var i = 0; i < CURRENCIES.length; i++) {
