@@ -4,6 +4,7 @@
   "keywords": [
     "bitcoin",
     "litecoin",
+	"denarius",
     "dogecoin",
     "altcoin",
     "address",
@@ -14,12 +15,12 @@
     "nodejs"
   ],
   "version": "0.1.0",
-  "author": "Tomek Kolasa <tomek@kolasa.me>",
-  "homepage": "https://github.com/ognus/wallet-address-validator",
+  "author": "Carsen Klock <carsenk@gmail.com>",
+  "homepage": "https://github.com/carsenk/wallet-address-validator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ognus/wallet-address-validator.git"
+    "url": "https://github.com/carsenk/wallet-address-validator.git"
   },
   "main": "src/wallet_address_validator",
   "engines": {
