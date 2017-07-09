@@ -17,6 +17,10 @@
             symbol: 'doge',
             addressTypes: {prod: ['1e', '16'], testnet: ['71', 'c4']}
         },{
+            name: 'denarius',
+            symbol: 'dnr',
+            addressTypes: {prod: ['1e', '5a'], testnet: ['12', '74']}
+        },{
             name: 'beavercoin',
             symbol: 'bvc',
             addressTypes: {prod: ['19', '05'], testnet: ['6f', 'c4']}
