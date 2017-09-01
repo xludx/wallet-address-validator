@@ -1,6 +1,6 @@
 {
-  "name": "wallet-address-validator",
-  "description": "Wallet address validator for Bitcoin and other Altcoins.",
+  "name": "crypto-wallet-address-validator",
+  "description": "Cryptocurrency wallet address validator for Bitcoin, Litecoin and other Altcoins.",
   "keywords": [
     "bitcoin",
     "bcash",
