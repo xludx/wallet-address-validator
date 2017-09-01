@@ -9,7 +9,7 @@ I forked it to include the new Litecoin address prefix format and to add bitcoin
 
 ### Node
 ```
-npm install wallet-address-validator
+npm install crypto-wallet-address-validator
 ```
 
 ### Browser
@@ -19,7 +19,7 @@ npm install wallet-address-validator
 
 #### Using bower
 ```
-bower install wallet-address-validator
+bower install crypto-wallet-address-validator
 ```
 
 
