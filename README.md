@@ -1,4 +1,4 @@
-# wallet-address-validator
+# crypto-wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
 Forked from [ivands/crypto-address-validator](https://github.com/ivands/crypto-address-validator)
