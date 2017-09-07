@@ -23,7 +23,7 @@
         },{
              name: 'geysercoin',
              symbol: 'gsr',
-             addressTypes: {prod: ['26'], testnet: []}
+             addressTypes: {prod: ['26'], testnet: ['6f']}
         },{
             name: 'beavercoin',
             symbol: 'bvc',
