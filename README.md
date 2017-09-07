@@ -2,6 +2,7 @@
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**. 
 
 Updated 6/19/2017 - Added Denarius/DNR Validation
+Updated 9/07/2017 - Added Geysercoin/GSR Validation
 
 Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
 
@@ -48,6 +49,7 @@ bower install wallet-address-validator
 * Bitcoin/BTC, `'bitcoin'` or `'BTC'`
 * Litecoin/LTC, `'litecoin'` or `'LTC'`
 * Denarius/DNR, `'denarius'` or `'DNR'`
+* Geysercoin/GSR, `'geysercoin'` or `'GSR'`
 * Peercoin/PPCoin/PPC, `'peercoin'` or `'PPC'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
 * BeaverCoin/BVC, `'beavercoin'` or `'BVC'`
