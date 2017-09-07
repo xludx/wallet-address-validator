@@ -15,12 +15,12 @@
     "nodejs"
   ],
   "version": "0.1.0",
-  "author": "Carsen Klock <carsenk@gmail.com>",
-  "homepage": "https://github.com/carsenk/wallet-address-validator",
+  "author": "Karthi Keyan <knkrth@protonmail.com>",
+  "homepage": "https://github.com/knkrth/wallet-address-validator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenk/wallet-address-validator.git"
+    "url": "https://github.com/knkrth/wallet-address-validator.git"
   },
   "main": "src/wallet_address_validator",
   "engines": {
