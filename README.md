@@ -2,6 +2,7 @@
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**. 
 
 Updated 11/03/2017 - Added Rupaya/RUPX Validation
+
 Updated 6/19/2017 - Added Denarius/DNR Validation
 
 Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
