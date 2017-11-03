@@ -1,6 +1,7 @@
 # wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**. 
 
+Updated 11/03/2017 - Added Rupaya/RUPX Validation
 Updated 6/19/2017 - Added Denarius/DNR Validation
 
 Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
@@ -48,6 +49,7 @@ bower install wallet-address-validator
 * Bitcoin/BTC, `'bitcoin'` or `'BTC'`
 * Litecoin/LTC, `'litecoin'` or `'LTC'`
 * Denarius/DNR, `'denarius'` or `'DNR'`
+* Rupaya/RUPX, `'rupaya'` or `'RUPX'`
 * Peercoin/PPCoin/PPC, `'peercoin'` or `'PPC'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
 * BeaverCoin/BVC, `'beavercoin'` or `'BVC'`
