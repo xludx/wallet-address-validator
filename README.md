@@ -1,5 +1,5 @@
 # altcoin-address [![Build Status](https://secure.travis-ci.org/ryanralph/altcoin-address.png)](http://travis-ci.org/ryanralph/altcoin-address)
-Functions for working with altcoin addresses, forked from [DefunctZombie](https://github.com/defunctzombie/bitcoin-address).
+Functions for working with altcoin addresses, forked from [ryanralph](https://github.com/ryanralph/altcoin-address) which was forked from [DefunctZombie](https://github.com/defunctzombie/bitcoin-address).
 
 ## API
 
@@ -64,7 +64,7 @@ else
 ###Donations
 
 If you've found this useful feel free to send me a tip
-> BTC 1E3s7YjGVWrnhxTYkjkBKtTX3c673CCm3w
+> BTC 12QG1SMWrMwWRgSh95cLHgWhHHdawu9ypz
 
 
 ###Ports to other languages

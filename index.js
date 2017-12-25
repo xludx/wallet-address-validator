@@ -26,7 +26,9 @@ var address_types = {
     primecoinTestnet: '6f',	//111 Decimal mn prefix
     auroracoin: '17',		// 23 Decimal A prefix
     auroracoinTestnet: '6f',	//111 Decimal mn prefix
-    namecoin: '34'
+    namecoin: '34',
+    beancash: '03',
+    beancashTestnet: '6f'
     //namecoinTestnet: ''	//TODO
     //That's all for now, to add more just send a pull request
 };
@@ -52,6 +54,8 @@ var p2sh_types = {
     primecoinTestnet: 'c4',  //196 Decimal 2 prefix
     auroracoin: '05',	 	// 83 Decimal a prefix
     auroracoinTestnet: 'c4'	//196 Decimal 2 prefix
+    beancash: '55'
+    beancashTestnet: 'c4'
     //namecoin: '',		//TODO
     //namecoinTestnet: ''	//TODO
 };
