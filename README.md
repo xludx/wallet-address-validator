@@ -47,7 +47,11 @@ bower install crypto-wallet-address-validator
 * Bcash/BCH, `'bcash'` or `'BCH'`
 * Litecoin/LTC, `'litecoin'` or `'LTC'`
 * Denarius/DNR, `'denarius'` or `'DNR'`
+<<<<<<< HEAD
 * Rupaya/RUPX, `'rupaya'` or `'RUPX'`
+=======
+* Geysercoin/GSR, `'geysercoin'` or `'GSR'`
+>>>>>>> bc280ded80857200b5c75f0dbea09ff16e13ae28
 * Peercoin/PPCoin/PPC, `'peercoin'` or `'PPC'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
 * BeaverCoin/BVC, `'beavercoin'` or `'BVC'`
