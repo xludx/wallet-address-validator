@@ -5,10 +5,10 @@
             symbol: 'btc',
             addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
         },{
-            name: 'bcash',
-            symbol: 'bch',
-            addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
-        },{		         
+          name: 'bcash',
+          symbol: 'bch',
+          addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
+        },{
             name: 'litecoin',
             symbol: 'ltc',
             addressTypes: {prod: ['30', '05', '32'], testnet: ['6f', 'c4', '3a']}
@@ -60,10 +60,17 @@
             name: 'vertcoin',
             symbol: 'vtc',
             addressTypes: {prod: ['0x', '47'], testnet: ['6f', 'c4']}
+        },{
+            name: 'dash',
+            symbol: 'dash',
+            addressTypes: {prod: ['4c', '10'], testnet: ['8c', '13']}
         }];
 
 
     var currencies = {
+
+    	CURRENCIES:CURRENCIES,
+
         getByNameOrSymbol: function (currencyNameOrSymbol) {
             var nameOrSymbol = currencyNameOrSymbol.toLowerCase();
             for (var i = 0; i < CURRENCIES.length; i++) {
