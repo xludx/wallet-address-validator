@@ -1,7 +1,7 @@
 # crypto-wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
-Forked from [ivands/crypto-address-validator](https://github.com/ivands/crypto-address-validator)
+Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
 
 I forked it to include the new Litecoin address prefix format and to add bitcoin cash support, **file size is 4.0 kB (minifed and gzipped)**.
 
@@ -46,6 +46,8 @@ bower install crypto-wallet-address-validator
 * Bitcoin/BTC, `'bitcoin'` or `'BTC'`
 * Bcash/BCH, `'bcash'` or `'BCH'`
 * Litecoin/LTC, `'litecoin'` or `'LTC'`
+* Denarius/DNR, `'denarius'` or `'DNR'`
+* Rupaya/RUPX, `'rupaya'` or `'RUPX'`
 * Peercoin/PPCoin/PPC, `'peercoin'` or `'PPC'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
 * BeaverCoin/BVC, `'beavercoin'` or `'BVC'`
