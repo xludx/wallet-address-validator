@@ -182,6 +182,14 @@ describe('WAValidator.validate()', function () {
             valid('muH8LL42DiMs8GEQ6Grfi8KUw2uFvuKr1J', 'BIO', 'testnet');
             valid('B8zjmYFGhWmiaQSJshfrnefE72xCapCkvo', 'BIO');
         });
+
+        it('should return true for correct Particl addresses', function () {
+            valid('Pct7MssCyrLo2EifXnnDwyr4oeKQ4bMJ2V', 'particl');
+            valid('PvpB82GXiGAEc4qeHh5SWULwDabqNZffd3', 'particl');
+            valid('PvpB82GXiGAEc4qeHh5SWULwDabqNZffd3', 'PART');
+            valid('pnXKhsh5sJroH9M5zZ57FuoR7riiYdeBfy', 'particl', 'testnet');
+            valid('pnXKhsh5sJroH9M5zZ57FuoR7riiYdeBfy', 'PART', 'testnet');
+        });
     });
 
     describe('invalid results', function () {
@@ -247,6 +255,10 @@ describe('WAValidator.validate()', function () {
 
         it('should return false for incorrect biocoin addresses', function () {
             commonTests('biocoin');
+        });
+
+        it('should return false for incorrect biocoin addresses', function () {
+            commonTests('particl');
         });
 
     });
