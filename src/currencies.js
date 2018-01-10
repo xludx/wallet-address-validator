@@ -68,6 +68,10 @@
             name: 'dash',
             symbol: 'dash',
             addressTypes: {prod: ['4c', '10'], testnet: ['8c', '13']}
+        }, {
+            name: 'bzlcoin',
+            symbol: 'bzl',
+            addressTypes: {prod: ['19', '55'], testnet: ['12', '74']}
         }];
 
 

@@ -57,6 +57,7 @@ bower install crypto-wallet-address-validator
 * Namecoin/NMC, `'namecoin'` or `'NMC'`
 * Biocoin/BIO, `'biocoin'` or `'BIO'`
 * BitcoinGold/BTG, `'bitcoingold'` or `'BTG'`
+* Bzlcoin/BZL, `'bzlcoin'` or `'BZL'`
 
 ### Usage example
 
