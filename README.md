@@ -55,6 +55,7 @@ bower install wallet-address-validator
 * Auroracoin/AUR, `'auroracoin'` or `'AUR'`
 * Namecoin/NMC, `'namecoin'` or `'NMC'`
 * Biocoin/BIO, `'biocoin'` or `'BIO'`
+* BitcoinGold/BTG, `'bitcoingold'` or `'BTG'`
 
 ### Usage example
 
