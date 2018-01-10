@@ -1,15 +1,15 @@
 # crypto-wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
-Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
+Forked from [ognus/wallet-address-validator](https://github.com/ognus/wallet-address-validator).
 
-I forked it to include the new Litecoin address prefix format and to add bitcoin cash support, **file size is 4.0 kB (minifed and gzipped)**.
+I forked it to remove all Node.js dependencies (crypro, Buffer etc.) to make it usable in the browser as well. I didn't use browserify to achieve smaller footprint, file size is 4.0 kB (minifed and gzipped).
 
 ## Installation
 
 ### Node
 ```
-npm install crypto-wallet-address-validator
+npm install wallet-address-validator
 ```
 
 ### Browser
@@ -19,7 +19,7 @@ npm install crypto-wallet-address-validator
 
 #### Using bower
 ```
-bower install crypto-wallet-address-validator
+bower install wallet-address-validator
 ```
 
 
@@ -46,14 +46,11 @@ bower install crypto-wallet-address-validator
 * Bitcoin/BTC, `'bitcoin'` or `'BTC'`
 * Bcash/BCH, `'bcash'` or `'BCH'`
 * Litecoin/LTC, `'litecoin'` or `'LTC'`
-* Denarius/DNR, `'denarius'` or `'DNR'`
-<<<<<<< HEAD
-* Rupaya/RUPX, `'rupaya'` or `'RUPX'`
-=======
-* Geysercoin/GSR, `'geysercoin'` or `'GSR'`
->>>>>>> bc280ded80857200b5c75f0dbea09ff16e13ae28
 * Peercoin/PPCoin/PPC, `'peercoin'` or `'PPC'`
 * Dogecoin/DOGE, `'dogecoin'` or `'DOGE'`
+* Denarius/DNR, `'denarius'` or `'DNR'`
+* Rupaya/RUPX, `'rupaya'` or `'RUPX'`
+* Geysercoin/GSR, `'geysercoin'` or `'GSR'`
 * BeaverCoin/BVC, `'beavercoin'` or `'BVC'`
 * Freicoin/FRC, `'freicoin'` or `'FRC'`
 * Protoshares/PTS, `'protoshares'` or `'PTS'`
@@ -62,8 +59,13 @@ bower install crypto-wallet-address-validator
 * Auroracoin/AUR, `'auroracoin'` or `'AUR'`
 * Namecoin/NMC, `'namecoin'` or `'NMC'`
 * Biocoin/BIO, `'biocoin'` or `'BIO'`
+* Desire/DSR, `'desire'` or `'DSR'`
 * BitcoinGold/BTG, `'bitcoingold'` or `'BTG'`
+* Vertcoin/VTC, `'vertcoin'` or `'VTC'`
+* Dash/DASH, `'dash'` or `'DASH'`
 * Bzlcoin/BZL, `'bzlcoin'` or `'BZL'`
+* Particl/PART, `'particl'` or `'PART'`
+
 
 ### Usage example
 

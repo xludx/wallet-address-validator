@@ -1,45 +1,57 @@
 {
-  "name": "crypto-wallet-address-validator",
-  "description": "Cryptocurrency wallet address validator for Bitcoin, Litecoin and other Altcoins.",
-  "keywords": [
-    "bitcoin",
-    "bcash",
-    "litecoin",
-    "bcash",
-    "biocoin",
-	"denarius",
-    "geysercoin",
-    "dogecoin",
-    "altcoin",
-    "address",
-    "desire",
-    "wallet",
-    "validator",
-    "javascript",
-    "browser",
-    "nodejs"
-  ],
-  "version": "0.2.2",
-  "author": "Juha Kovanen <juha@particl.io>",
-  "homepage": "https://github.com/xludx/wallet-address-validator",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CoinFlux/wallet-address-validator.git"
-  },
-  "main": "src/wallet_address_validator",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {
-    "jssha": "1.6.0"
-  },
-  "devDependencies": {
-    "chai": "latest",
-    "grunt": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-mocha": "latest",
-    "grunt-simple-mocha": "latest",
-    "mocha": "latest"
-  }
+	"name": "crypto-wallet-address-validator",
+	"description": "Cryptocurrency wallet address validator for Bitcoin, Litecoin and other Altcoins.",
+	"keywords": [
+		"bitcoin",
+		"bcash",
+		"litecoin",
+		"peercoin",
+		"dogecoin",
+		"denarius",
+		"rupaya",
+		"geysercoin",
+		"beavercoin",
+		"freicoin",
+		"protoshares",
+		"megacoin",
+		"primecoin",
+		"auroracoin",
+		"namecoin",
+		"biocoin",
+		"desire",
+		"bitcoingold",
+		"vertcoin",
+		"dash",
+		"bzlcoin",
+		"altcoin",
+		"address",
+		"wallet",
+		"validator",
+		"javascript",
+		"browser",
+		"nodejs"
+	],
+	"version": "0.3.0",
+	"author": "Juha Kovanen <juha@particl.io>",
+	"homepage": "https://github.com/xludx/wallet-address-validator",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CoinFlux/wallet-address-validator.git"
+	},
+	"main": "src/wallet_address_validator",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+		"jssha": "1.6.0"
+	},
+	"devDependencies": {
+		"chai": "latest",
+		"grunt": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-mocha": "latest",
+		"grunt-simple-mocha": "latest",
+		"mocha": "latest"
+	}
 }
