@@ -5,9 +5,9 @@
             symbol: 'btc',
             addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
         },{
-          name: 'bcash',
-          symbol: 'bch',
-          addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
+            name: 'bcash',
+            symbol: 'bch',
+            addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']}
         },{
             name: 'litecoin',
             symbol: 'ltc',
@@ -53,6 +53,10 @@
             symbol: 'bio',
             addressTypes: {prod: ['19', '14'], testnet: ['6f', 'c4']}
         },{
+            name: 'desire',
+            symbol: 'dsr',
+            addressTypes: {prod: ['1e', '10'], testnet: ['1e', '10']}
+        },{
             name: 'bitcoinGold',
             symbol: 'btg',
             addressTypes: {prod: ['26', '17'], testnet: ['6f', 'c4']}
@@ -75,21 +79,23 @@
             var nameOrSymbol = currencyNameOrSymbol.toLowerCase();
             for (var i = 0; i < CURRENCIES.length; i++) {
                 var currency = CURRENCIES[i];
-                if(currency.name === nameOrSymbol || currency.symbol === nameOrSymbol) {
+                if (currency.name === nameOrSymbol || currency.symbol === nameOrSymbol) {
                     return currency;
                 }
             }
             return null;
         }
-    };
+  };
 
-    // export currencies module
-    if(isNode) {
-        module.exports = currencies;
-    } else {
-        if(typeof window.WAValidator === 'undefined'){
-           window.WAValidator = {__imports: {}};
-        }
-        window.WAValidator.__imports.currencies = currencies;
+  // export currencies module
+  if (isNode) {
+    module.exports = currencies;
+  } else {
+    if (typeof window.WAValidator === 'undefined') {
+      window.WAValidator = {
+        __imports: {}
+      };
     }
+    window.WAValidator.__imports.currencies = currencies;
+  }
 })(typeof module !== 'undefined' && typeof module.exports !== 'undefined');
