@@ -257,7 +257,7 @@ describe('WAValidator.validate()', function () {
             commonTests('biocoin');
         });
 
-        it('should return false for incorrect biocoin addresses', function () {
+        it('should return false for incorrect particl addresses', function () {
             commonTests('particl');
         });
 
